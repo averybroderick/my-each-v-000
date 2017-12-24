@@ -6,7 +6,7 @@ def my_each(arr) # put argument(s) here
     yield arr[i]
     i+=1
   end
-  
+  arr
 end
 
 my_each([1,2,3,4]) #puts 1234
